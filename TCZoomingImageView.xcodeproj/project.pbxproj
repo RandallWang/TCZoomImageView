@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B16F8788209DB70D004DF687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F8787209DB70D004DF687 /* AppDelegate.swift */; };
+		B16F878A209DB70D004DF687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F8789209DB70D004DF687 /* ViewController.swift */; };
+		B16F878D209DB70D004DF687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16F878B209DB70D004DF687 /* Main.storyboard */; };
+		B16F878F209DB70F004DF687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16F878E209DB70F004DF687 /* Assets.xcassets */; };
+		B16F8792209DB70F004DF687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16F8790209DB70F004DF687 /* LaunchScreen.storyboard */; };
+		B16F879D209DB70F004DF687 /* TCZoomingImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F879C209DB70F004DF687 /* TCZoomingImageViewTests.swift */; };
+		B16F87A8209DB70F004DF687 /* TCZoomingImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F87A7209DB70F004DF687 /* TCZoomingImageViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16F8799209DB70F004DF687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16F877C209DB70D004DF687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16F8783209DB70D004DF687;
+			remoteInfo = TCZoomingImageView;
+		};
+		B16F87A4209DB70F004DF687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16F877C209DB70D004DF687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16F8783209DB70D004DF687;
+			remoteInfo = TCZoomingImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B16F8784209DB70D004DF687 /* TCZoomingImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCZoomingImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F8787209DB70D004DF687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B16F8789209DB70D004DF687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B16F878C209DB70D004DF687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B16F878E209DB70F004DF687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B16F8791209DB70F004DF687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B16F8793209DB70F004DF687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F8798209DB70F004DF687 /* TCZoomingImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCZoomingImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F879C209DB70F004DF687 /* TCZoomingImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCZoomingImageViewTests.swift; sourceTree = "<group>"; };
+		B16F879E209DB70F004DF687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F87A3209DB70F004DF687 /* TCZoomingImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCZoomingImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F87A7209DB70F004DF687 /* TCZoomingImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCZoomingImageViewUITests.swift; sourceTree = "<group>"; };
+		B16F87A9209DB70F004DF687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16F8781209DB70D004DF687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F8795209DB70F004DF687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F87A0209DB70F004DF687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B16F877B209DB70D004DF687 = {
+			isa = PBXGroup;
+			children = (
+				B16F8786209DB70D004DF687 /* TCZoomingImageView */,
+				B16F879B209DB70F004DF687 /* TCZoomingImageViewTests */,
+				B16F87A6209DB70F004DF687 /* TCZoomingImageViewUITests */,
+				B16F8785209DB70D004DF687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B16F8785209DB70D004DF687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16F8784209DB70D004DF687 /* TCZoomingImageView.app */,
+				B16F8798209DB70F004DF687 /* TCZoomingImageViewTests.xctest */,
+				B16F87A3209DB70F004DF687 /* TCZoomingImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16F8786209DB70D004DF687 /* TCZoomingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B16F8787209DB70D004DF687 /* AppDelegate.swift */,
+				B16F8789209DB70D004DF687 /* ViewController.swift */,
+				B16F878B209DB70D004DF687 /* Main.storyboard */,
+				B16F878E209DB70F004DF687 /* Assets.xcassets */,
+				B16F8790209DB70F004DF687 /* LaunchScreen.storyboard */,
+				B16F8793209DB70F004DF687 /* Info.plist */,
+			);
+			path = TCZoomingImageView;
+			sourceTree = "<group>";
+		};
+		B16F879B209DB70F004DF687 /* TCZoomingImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B16F879C209DB70F004DF687 /* TCZoomingImageViewTests.swift */,
+				B16F879E209DB70F004DF687 /* Info.plist */,
+			);
+			path = TCZoomingImageViewTests;
+			sourceTree = "<group>";
+		};
+		B16F87A6209DB70F004DF687 /* TCZoomingImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B16F87A7209DB70F004DF687 /* TCZoomingImageViewUITests.swift */,
+				B16F87A9209DB70F004DF687 /* Info.plist */,
+			);
+			path = TCZoomingImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16F8783209DB70D004DF687 /* TCZoomingImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F87AC209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageView" */;
+			buildPhases = (
+				B16F8780209DB70D004DF687 /* Sources */,
+				B16F8781209DB70D004DF687 /* Frameworks */,
+				B16F8782209DB70D004DF687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCZoomingImageView;
+			productName = TCZoomingImageView;
+			productReference = B16F8784209DB70D004DF687 /* TCZoomingImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B16F8797209DB70F004DF687 /* TCZoomingImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F87AF209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewTests" */;
+			buildPhases = (
+				B16F8794209DB70F004DF687 /* Sources */,
+				B16F8795209DB70F004DF687 /* Frameworks */,
+				B16F8796209DB70F004DF687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16F879A209DB70F004DF687 /* PBXTargetDependency */,
+			);
+			name = TCZoomingImageViewTests;
+			productName = TCZoomingImageViewTests;
+			productReference = B16F8798209DB70F004DF687 /* TCZoomingImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B16F87A2209DB70F004DF687 /* TCZoomingImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F87B2209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewUITests" */;
+			buildPhases = (
+				B16F879F209DB70F004DF687 /* Sources */,
+				B16F87A0209DB70F004DF687 /* Frameworks */,
+				B16F87A1209DB70F004DF687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16F87A5209DB70F004DF687 /* PBXTargetDependency */,
+			);
+			name = TCZoomingImageViewUITests;
+			productName = TCZoomingImageViewUITests;
+			productReference = B16F87A3209DB70F004DF687 /* TCZoomingImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16F877C209DB70D004DF687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tianchi Wang";
+				TargetAttributes = {
+					B16F8783209DB70D004DF687 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B16F8797209DB70F004DF687 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B16F8783209DB70D004DF687;
+					};
+					B16F87A2209DB70F004DF687 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B16F8783209DB70D004DF687;
+					};
+				};
+			};
+			buildConfigurationList = B16F877F209DB70D004DF687 /* Build configuration list for PBXProject "TCZoomingImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B16F877B209DB70D004DF687;
+			productRefGroup = B16F8785209DB70D004DF687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16F8783209DB70D004DF687 /* TCZoomingImageView */,
+				B16F8797209DB70F004DF687 /* TCZoomingImageViewTests */,
+				B16F87A2209DB70F004DF687 /* TCZoomingImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16F8782209DB70D004DF687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F8792209DB70F004DF687 /* LaunchScreen.storyboard in Resources */,
+				B16F878F209DB70F004DF687 /* Assets.xcassets in Resources */,
+				B16F878D209DB70D004DF687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F8796209DB70F004DF687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F87A1209DB70F004DF687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16F8780209DB70D004DF687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F878A209DB70D004DF687 /* ViewController.swift in Sources */,
+				B16F8788209DB70D004DF687 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F8794209DB70F004DF687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F879D209DB70F004DF687 /* TCZoomingImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F879F209DB70F004DF687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F87A8209DB70F004DF687 /* TCZoomingImageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16F879A209DB70F004DF687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16F8783209DB70D004DF687 /* TCZoomingImageView */;
+			targetProxy = B16F8799209DB70F004DF687 /* PBXContainerItemProxy */;
+		};
+		B16F87A5209DB70F004DF687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16F8783209DB70D004DF687 /* TCZoomingImageView */;
+			targetProxy = B16F87A4209DB70F004DF687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16F878B209DB70D004DF687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16F878C209DB70D004DF687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B16F8790209DB70F004DF687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16F8791209DB70F004DF687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B16F87AA209DB70F004DF687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B16F87AB209DB70F004DF687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16F87AD209DB70F004DF687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16F87AE209DB70F004DF687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B16F87B0209DB70F004DF687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingImageView.app/TCZoomingImageView";
+			};
+			name = Debug;
+		};
+		B16F87B1209DB70F004DF687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingImageView.app/TCZoomingImageView";
+			};
+			name = Release;
+		};
+		B16F87B3209DB70F004DF687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCZoomingImageView;
+			};
+			name = Debug;
+		};
+		B16F87B4209DB70F004DF687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C76DH9Q88R;
+				INFOPLIST_FILE = TCZoomingImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCZoomingImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16F877F209DB70D004DF687 /* Build configuration list for PBXProject "TCZoomingImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F87AA209DB70F004DF687 /* Debug */,
+				B16F87AB209DB70F004DF687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F87AC209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F87AD209DB70F004DF687 /* Debug */,
+				B16F87AE209DB70F004DF687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F87AF209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F87B0209DB70F004DF687 /* Debug */,
+				B16F87B1209DB70F004DF687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F87B2209DB70F004DF687 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F87B3209DB70F004DF687 /* Debug */,
+				B16F87B4209DB70F004DF687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B16F877C209DB70D004DF687 /* Project object */;
+}
