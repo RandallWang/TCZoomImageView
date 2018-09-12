@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ZoomingImageView: UIView {
+class TCZoomingImageView: UIView {
 
     private var baseScrolView: UIScrollView?
     private var imageView: UIImageView?
@@ -57,7 +57,7 @@ class ZoomingImageView: UIView {
     }
 }
 
-extension ZoomingImageView: UIScrollViewDelegate {
+extension TCZoomingImageView: UIScrollViewDelegate {
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return imageView
     }
