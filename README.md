@@ -2,5 +2,5 @@
 
 The ImageView supports zooming.
 
-##Usage
+## Usage
 
