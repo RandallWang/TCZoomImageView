@@ -17,7 +17,8 @@ class ViewController: UIViewController {
 //        2018-01-01_10-17-26.jpg
 //        2015-06-28_21-58-50.jpg
         if let testImage = UIImage.init(named: "2018-01-01_10-17-26.jpg", in: Bundle.main, compatibleWith: nil) {
-            zoomView.setUpImageView(withImage: testImage)
+//            zoomView.setUpImageView(withImage: testImage)
+            zoomView.setUp(testImage)
         }
     }
 

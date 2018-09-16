@@ -16,8 +16,6 @@
 		B16F8792209DB70F004DF687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16F8790209DB70F004DF687 /* LaunchScreen.storyboard */; };
 		B16F879D209DB70F004DF687 /* TCZoomingImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F879C209DB70F004DF687 /* TCZoomingImageViewTests.swift */; };
 		B16F87A8209DB70F004DF687 /* TCZoomingImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F87A7209DB70F004DF687 /* TCZoomingImageViewUITests.swift */; };
-		B16F87B7209DB818004DF687 /* TCZoomingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F87B6209DB818004DF687 /* TCZoomingImageView.swift */; };
-		B17479CE214922E100AE4975 /* TCZoomingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B17479CD214922E100AE4975 /* TCZoomingImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +51,6 @@
 		B16F87A3209DB70F004DF687 /* TCZoomingImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCZoomingImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16F87A7209DB70F004DF687 /* TCZoomingImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCZoomingImageViewUITests.swift; sourceTree = "<group>"; };
 		B16F87A9209DB70F004DF687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B16F87B6209DB818004DF687 /* TCZoomingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCZoomingImageView.swift; sourceTree = "<group>"; };
-		B17479CB214922E100AE4975 /* TCZoomingImageView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCZoomingImageView-Bridging-Header.h"; sourceTree = "<group>"; };
-		B17479CC214922E100AE4975 /* TCZoomingImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCZoomingImageView.h; sourceTree = "<group>"; };
-		B17479CD214922E100AE4975 /* TCZoomingImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCZoomingImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +101,10 @@
 		B16F8786209DB70D004DF687 /* TCZoomingImageView */ = {
 			isa = PBXGroup;
 			children = (
-				B17479CA214922B000AE4975 /* Objective-C */,
-				B17479C9214922A600AE4975 /* Swift */,
 				B111345020A3E03000DE36A2 /* 2015-06-28_21-58-50.jpg */,
 				B111345220A3E03100DE36A2 /* 2018-01-01_10-17-26.jpg */,
 				B16F8787209DB70D004DF687 /* AppDelegate.swift */,
 				B16F8789209DB70D004DF687 /* ViewController.swift */,
-				B17479CB214922E100AE4975 /* TCZoomingImageView-Bridging-Header.h */,
 				B16F878B209DB70D004DF687 /* Main.storyboard */,
 				B16F878E209DB70F004DF687 /* Assets.xcassets */,
 				B16F8790209DB70F004DF687 /* LaunchScreen.storyboard */,
@@ -138,23 +129,6 @@
 				B16F87A9209DB70F004DF687 /* Info.plist */,
 			);
 			path = TCZoomingImageViewUITests;
-			sourceTree = "<group>";
-		};
-		B17479C9214922A600AE4975 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				B16F87B6209DB818004DF687 /* TCZoomingImageView.swift */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		B17479CA214922B000AE4975 /* Objective-C */ = {
-			isa = PBXGroup;
-			children = (
-				B17479CC214922E100AE4975 /* TCZoomingImageView.h */,
-				B17479CD214922E100AE4975 /* TCZoomingImageView.m */,
-			);
-			path = "Objective-C";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +203,12 @@
 					};
 					B16F8797209DB70F004DF687 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = B16F8783209DB70D004DF687;
 					};
 					B16F87A2209DB70F004DF687 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = B16F8783209DB70D004DF687;
 					};
 				};
@@ -292,9 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16F878A209DB70D004DF687 /* ViewController.swift in Sources */,
-				B16F87B7209DB818004DF687 /* TCZoomingImageView.swift in Sources */,
 				B16F8788209DB70D004DF687 /* AppDelegate.swift in Sources */,
-				B17479CE214922E100AE4975 /* TCZoomingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TCZoomingImageView/Objective-C/TCZoomingImageView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -499,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TCZoomingImageView/Objective-C/TCZoomingImageView-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -519,7 +493,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingImageView.app/TCZoomingImageView";
 			};
@@ -540,7 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingImageView.app/TCZoomingImageView";
 			};
@@ -560,7 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TCZoomingImageView;
 			};
@@ -580,7 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingImageViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TCZoomingImageView;
 			};
