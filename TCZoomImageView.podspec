@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TCZoomImageView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "The ImageView supports zooming."
 
   s.homepage     = "https://github.com/RandallWang/TCZoomImageView"
