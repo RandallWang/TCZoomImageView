@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2B8881A4ED8972A2F0AA873CCB3252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		374720322ECB74C2357A008FB076EC4C /* TCZoomingImageViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002AF759EF88A4DC42E119970CB5C932 /* TCZoomingImageViewSwift-dummy.m */; };
+		6363D59CD121D20B7D3AB28D32CCC5E5 /* TCZoomingImageViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5042F2851BCD09D0CDA6BF9A0EDF217 /* TCZoomingImageViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FB8C70DA082630A45DB2151406A383 /* Pods-TCZoomingImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086309BC80C4BD79172D3760CE2B895 /* Pods-TCZoomingImageView-dummy.m */; };
+		994844CD428FF06766BBEFEABE41B035 /* Pods-TCZoomingImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE18CD6F4CAE7D61A5F1EE49399A9D1 /* Pods-TCZoomingImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20BB9C1E884C3F992F014561BE7E101 /* TCZoomingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C796FBA66A709C49790B79C68D149 /* TCZoomingImageView.swift */; };
+		F2AC8CACDD1DC8FEA204EC03E6DF2CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E963267CB2C2D06E5F9E9C16FF14AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165DB0F53D05F7ED1F4C900B3BF73196;
+			remoteInfo = TCZoomingImageViewSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002AF759EF88A4DC42E119970CB5C932 /* TCZoomingImageViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCZoomingImageViewSwift-dummy.m"; sourceTree = "<group>"; };
+		022C796FBA66A709C49790B79C68D149 /* TCZoomingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCZoomingImageView.swift; path = Source/Swift/TCZoomingImageView.swift; sourceTree = "<group>"; };
+		1883357B75847E4B04AD32F9F5F550FC /* TCZoomingImageViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCZoomingImageViewSwift.framework; path = TCZoomingImageViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B861D09A351BF10A8FB32857F396683 /* Pods_TCZoomingImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCZoomingImageView.framework; path = "Pods-TCZoomingImageView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D69164697DC4672C19E128C2727B51E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA0B17B7333AB2E5557305802299B7C /* Pods-TCZoomingImageView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCZoomingImageView-frameworks.sh"; sourceTree = "<group>"; };
+		51490B3F54A328C2E9DC7E7448F6824E /* Pods-TCZoomingImageView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCZoomingImageView-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66AE4BF0AFFC0CB1FFB50582DC54015C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D21AA606EB565F215C1F4CBF007BA5A /* Pods-TCZoomingImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCZoomingImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		855D28B5021C294475AC344D5796D205 /* TCZoomingImageViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCZoomingImageViewSwift-prefix.pch"; sourceTree = "<group>"; };
+		9086309BC80C4BD79172D3760CE2B895 /* Pods-TCZoomingImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCZoomingImageView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AB9DB3365B8526EEBEBBABE24C9705 /* Pods-TCZoomingImageView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCZoomingImageView-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5042F2851BCD09D0CDA6BF9A0EDF217 /* TCZoomingImageViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCZoomingImageViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		A7DE06A07B3F3F0EA89B5C8F3555B573 /* Pods-TCZoomingImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCZoomingImageView.modulemap"; sourceTree = "<group>"; };
+		BAE18CD6F4CAE7D61A5F1EE49399A9D1 /* Pods-TCZoomingImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCZoomingImageView-umbrella.h"; sourceTree = "<group>"; };
+		E1287F7369E9CBEE652182D284265D31 /* TCZoomingImageViewSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCZoomingImageViewSwift.xcconfig; sourceTree = "<group>"; };
+		E17F9D2860EB1FFB19C642E014C3C7AE /* TCZoomingImageViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCZoomingImageViewSwift.modulemap; sourceTree = "<group>"; };
+		F1E82A1086424E13E5707C7E6276ABEE /* Pods-TCZoomingImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCZoomingImageView.release.xcconfig"; sourceTree = "<group>"; };
+		F23075D32AFD974A3EE4B3892E883C4D /* Pods-TCZoomingImageView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCZoomingImageView-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E054F4771BBACB830764F090756F346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2B8881A4ED8972A2F0AA873CCB3252 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BA5AE1B7F48F757C8B008858BA7F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC8CACDD1DC8FEA204EC03E6DF2CD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3126BD3CB2BB37F82C3EC1BB3CEBB83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B861D09A351BF10A8FB32857F396683 /* Pods_TCZoomingImageView.framework */,
+				1883357B75847E4B04AD32F9F5F550FC /* TCZoomingImageViewSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33033E063CD6E767D0BF17FB914BFF19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AE4BF0AFFC0CB1FFB50582DC54015C /* Info.plist */,
+				E17F9D2860EB1FFB19C642E014C3C7AE /* TCZoomingImageViewSwift.modulemap */,
+				E1287F7369E9CBEE652182D284265D31 /* TCZoomingImageViewSwift.xcconfig */,
+				002AF759EF88A4DC42E119970CB5C932 /* TCZoomingImageViewSwift-dummy.m */,
+				855D28B5021C294475AC344D5796D205 /* TCZoomingImageViewSwift-prefix.pch */,
+				A5042F2851BCD09D0CDA6BF9A0EDF217 /* TCZoomingImageViewSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TCZoomingImageViewSwift";
+			sourceTree = "<group>";
+		};
+		5864117D68F1B080E0094F94E1074B15 /* TCZoomingImageViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				022C796FBA66A709C49790B79C68D149 /* TCZoomingImageView.swift */,
+				33033E063CD6E767D0BF17FB914BFF19 /* Support Files */,
+			);
+			name = TCZoomingImageViewSwift;
+			path = TCZoomingImageViewSwift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A4D3394D895D025AFF02A09CFDDE85BD /* Pods */,
+				3126BD3CB2BB37F82C3EC1BB3CEBB83C /* Products */,
+				DB0B822D005DE29586EF64B3275E46F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D3394D895D025AFF02A09CFDDE85BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5864117D68F1B080E0094F94E1074B15 /* TCZoomingImageViewSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B29273B3C4D521E39F79D152238DC6 /* Pods-TCZoomingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2D69164697DC4672C19E128C2727B51E /* Info.plist */,
+				A7DE06A07B3F3F0EA89B5C8F3555B573 /* Pods-TCZoomingImageView.modulemap */,
+				F23075D32AFD974A3EE4B3892E883C4D /* Pods-TCZoomingImageView-acknowledgements.markdown */,
+				A1AB9DB3365B8526EEBEBBABE24C9705 /* Pods-TCZoomingImageView-acknowledgements.plist */,
+				9086309BC80C4BD79172D3760CE2B895 /* Pods-TCZoomingImageView-dummy.m */,
+				3CA0B17B7333AB2E5557305802299B7C /* Pods-TCZoomingImageView-frameworks.sh */,
+				51490B3F54A328C2E9DC7E7448F6824E /* Pods-TCZoomingImageView-resources.sh */,
+				BAE18CD6F4CAE7D61A5F1EE49399A9D1 /* Pods-TCZoomingImageView-umbrella.h */,
+				6D21AA606EB565F215C1F4CBF007BA5A /* Pods-TCZoomingImageView.debug.xcconfig */,
+				F1E82A1086424E13E5707C7E6276ABEE /* Pods-TCZoomingImageView.release.xcconfig */,
+			);
+			name = "Pods-TCZoomingImageView";
+			path = "Target Support Files/Pods-TCZoomingImageView";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB0B822D005DE29586EF64B3275E46F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B29273B3C4D521E39F79D152238DC6 /* Pods-TCZoomingImageView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DCF7BFA04CFCA799DEADA2575E2484F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363D59CD121D20B7D3AB28D32CCC5E5 /* TCZoomingImageViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8BE7C53EBA69E3D9B7C719BAACD096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994844CD428FF06766BBEFEABE41B035 /* Pods-TCZoomingImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D17A598E8DEF3D12EF16212355EF4D0 /* Pods-TCZoomingImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93B31F0660EC916A5F880E94A9368F4 /* Build configuration list for PBXNativeTarget "Pods-TCZoomingImageView" */;
+			buildPhases = (
+				91F4EBACB64A07A2639D0F31D632950B /* Sources */,
+				C1BA5AE1B7F48F757C8B008858BA7F32 /* Frameworks */,
+				FF8BE7C53EBA69E3D9B7C719BAACD096 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BBE29FDF11AB5A013DA2D74115A6968 /* PBXTargetDependency */,
+			);
+			name = "Pods-TCZoomingImageView";
+			productName = "Pods-TCZoomingImageView";
+			productReference = 1B861D09A351BF10A8FB32857F396683 /* Pods_TCZoomingImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		165DB0F53D05F7ED1F4C900B3BF73196 /* TCZoomingImageViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D299172D0B183DA971AE313ADA6258 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewSwift" */;
+			buildPhases = (
+				E1595B6967B1C96315596291B52AB9A0 /* Sources */,
+				0E054F4771BBACB830764F090756F346 /* Frameworks */,
+				2DCF7BFA04CFCA799DEADA2575E2484F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCZoomingImageViewSwift;
+			productName = TCZoomingImageViewSwift;
+			productReference = 1883357B75847E4B04AD32F9F5F550FC /* TCZoomingImageViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3126BD3CB2BB37F82C3EC1BB3CEBB83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D17A598E8DEF3D12EF16212355EF4D0 /* Pods-TCZoomingImageView */,
+				165DB0F53D05F7ED1F4C900B3BF73196 /* TCZoomingImageViewSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F4EBACB64A07A2639D0F31D632950B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FB8C70DA082630A45DB2151406A383 /* Pods-TCZoomingImageView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1595B6967B1C96315596291B52AB9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20BB9C1E884C3F992F014561BE7E101 /* TCZoomingImageView.swift in Sources */,
+				374720322ECB74C2357A008FB076EC4C /* TCZoomingImageViewSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BBE29FDF11AB5A013DA2D74115A6968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCZoomingImageViewSwift;
+			target = 165DB0F53D05F7ED1F4C900B3BF73196 /* TCZoomingImageViewSwift */;
+			targetProxy = 8E963267CB2C2D06E5F9E9C16FF14AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CBD96135F5A714F59565B40168BC719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1287F7369E9CBEE652182D284265D31 /* TCZoomingImageViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCZoomingImageViewSwift/TCZoomingImageViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCZoomingImageViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCZoomingImageViewSwift/TCZoomingImageViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = TCZoomingImageViewSwift;
+				PRODUCT_NAME = TCZoomingImageViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A191BF7BAC313ACC8F2F86C1D4C844E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D21AA606EB565F215C1F4CBF007BA5A /* Pods-TCZoomingImageView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCZoomingImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCZoomingImageView/Pods-TCZoomingImageView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3CE326457BA762FA417F982012DA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E82A1086424E13E5707C7E6276ABEE /* Pods-TCZoomingImageView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCZoomingImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCZoomingImageView/Pods-TCZoomingImageView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D67BF073EFFE45166871DE2948511DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1287F7369E9CBEE652182D284265D31 /* TCZoomingImageViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCZoomingImageViewSwift/TCZoomingImageViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCZoomingImageViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCZoomingImageViewSwift/TCZoomingImageViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = TCZoomingImageViewSwift;
+				PRODUCT_NAME = TCZoomingImageViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D299172D0B183DA971AE313ADA6258 /* Build configuration list for PBXNativeTarget "TCZoomingImageViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D67BF073EFFE45166871DE2948511DB /* Debug */,
+				3CBD96135F5A714F59565B40168BC719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93B31F0660EC916A5F880E94A9368F4 /* Build configuration list for PBXNativeTarget "Pods-TCZoomingImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A191BF7BAC313ACC8F2F86C1D4C844E /* Debug */,
+				7C3CE326457BA762FA417F982012DA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,3 +7,9 @@ The ImageView supports zooming.
 ### Cocoapods
 
 ​	pod 'TCZoomImageView' 
+
+
+
+### Swift 
+
+​	**Supporting Swift Version :swift 4.2**

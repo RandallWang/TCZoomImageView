@@ -1,0 +1,6 @@
+framework module TCZoomingImageViewSwift {
+  umbrella header "TCZoomingImageViewSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
