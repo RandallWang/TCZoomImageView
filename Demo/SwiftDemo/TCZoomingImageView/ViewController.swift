@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var zoomView: TCZoomingImageView!
+//    @IBOutlet weak var zoomView: TCZoomingImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 //        2015-06-28_21-58-50.jpg
         if let testImage = UIImage.init(named: "2018-01-01_10-17-26.jpg", in: Bundle.main, compatibleWith: nil) {
 //            zoomView.setUpImageView(withImage: testImage)
-            zoomView.setUp(testImage)
+//            zoomView.setUp(testImage)
         }
     }
 
