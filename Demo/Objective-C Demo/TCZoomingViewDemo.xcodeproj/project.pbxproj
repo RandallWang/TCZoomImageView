@@ -7,112 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B16C2C08214E2F59008403FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B16C2C07214E2F59008403FB /* AppDelegate.m */; };
-		B16C2C0B214E2F59008403FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16C2C0A214E2F59008403FB /* ViewController.m */; };
-		B16C2C0E214E2F59008403FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16C2C0C214E2F59008403FB /* Main.storyboard */; };
-		B16C2C10214E2F5B008403FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16C2C0F214E2F5B008403FB /* Assets.xcassets */; };
-		B16C2C13214E2F5B008403FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16C2C11214E2F5B008403FB /* LaunchScreen.storyboard */; };
-		B16C2C16214E2F5B008403FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B16C2C15214E2F5B008403FB /* main.m */; };
-		B16C2C20214E2F5B008403FB /* TCZoomingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B16C2C1F214E2F5B008403FB /* TCZoomingViewDemoTests.m */; };
+		B1F5725E2154800D00773180 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5725D2154800D00773180 /* AppDelegate.m */; };
+		B1F572612154800D00773180 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F572602154800D00773180 /* ViewController.m */; };
+		B1F572642154800D00773180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F572622154800D00773180 /* Main.storyboard */; };
+		B1F572662154800E00773180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F572652154800E00773180 /* Assets.xcassets */; };
+		B1F572692154800E00773180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F572672154800E00773180 /* LaunchScreen.storyboard */; };
+		B1F5726C2154800E00773180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5726B2154800E00773180 /* main.m */; };
+		CE39B7EA2EFFF399500E965C /* libPods-TCZoomingViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE1CE5A7B178A3119F83C17 /* libPods-TCZoomingViewDemo.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B16C2C1C214E2F5B008403FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B16C2BFB214E2F59008403FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B16C2C02214E2F59008403FB;
-			remoteInfo = TCZoomingViewDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B16C2C03214E2F59008403FB /* TCZoomingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCZoomingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16C2C06214E2F59008403FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B16C2C07214E2F59008403FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B16C2C09214E2F59008403FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B16C2C0A214E2F59008403FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B16C2C0D214E2F59008403FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B16C2C0F214E2F5B008403FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B16C2C12214E2F5B008403FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B16C2C14214E2F5B008403FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B16C2C15214E2F5B008403FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B16C2C1B214E2F5B008403FB /* TCZoomingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCZoomingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16C2C1F214E2F5B008403FB /* TCZoomingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCZoomingViewDemoTests.m; sourceTree = "<group>"; };
-		B16C2C21214E2F5B008403FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F572592154800D00773180 /* TCZoomingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCZoomingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F5725C2154800D00773180 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1F5725D2154800D00773180 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1F5725F2154800D00773180 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1F572602154800D00773180 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1F572632154800D00773180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1F572652154800E00773180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F572682154800E00773180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1F5726A2154800E00773180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F5726B2154800E00773180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE3CC96E05538C9CF431DFF /* Pods-TCZoomingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCZoomingViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCZoomingViewDemo/Pods-TCZoomingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E95437C8CFE5FC0017079090 /* Pods-TCZoomingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCZoomingViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCZoomingViewDemo/Pods-TCZoomingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE1CE5A7B178A3119F83C17 /* libPods-TCZoomingViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCZoomingViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B16C2C00214E2F59008403FB /* Frameworks */ = {
+		B1F572562154800D00773180 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B16C2C18214E2F5B008403FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE39B7EA2EFFF399500E965C /* libPods-TCZoomingViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B16C2BFA214E2F59008403FB = {
+		209296C20EEACFC8AB93484E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B16C2C05214E2F59008403FB /* TCZoomingViewDemo */,
-				B16C2C1E214E2F5B008403FB /* TCZoomingViewDemoTests */,
-				B16C2C04214E2F59008403FB /* Products */,
+				E95437C8CFE5FC0017079090 /* Pods-TCZoomingViewDemo.debug.xcconfig */,
+				DDE3CC96E05538C9CF431DFF /* Pods-TCZoomingViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79EFF4A448F55967B6FDBB87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1CE5A7B178A3119F83C17 /* libPods-TCZoomingViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1F572502154800D00773180 = {
+			isa = PBXGroup;
+			children = (
+				B1F5725B2154800D00773180 /* TCZoomingViewDemo */,
+				B1F5725A2154800D00773180 /* Products */,
+				209296C20EEACFC8AB93484E /* Pods */,
+				79EFF4A448F55967B6FDBB87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B16C2C04214E2F59008403FB /* Products */ = {
+		B1F5725A2154800D00773180 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B16C2C03214E2F59008403FB /* TCZoomingViewDemo.app */,
-				B16C2C1B214E2F5B008403FB /* TCZoomingViewDemoTests.xctest */,
+				B1F572592154800D00773180 /* TCZoomingViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B16C2C05214E2F59008403FB /* TCZoomingViewDemo */ = {
+		B1F5725B2154800D00773180 /* TCZoomingViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B16C2C06214E2F59008403FB /* AppDelegate.h */,
-				B16C2C07214E2F59008403FB /* AppDelegate.m */,
-				B16C2C09214E2F59008403FB /* ViewController.h */,
-				B16C2C0A214E2F59008403FB /* ViewController.m */,
-				B16C2C0C214E2F59008403FB /* Main.storyboard */,
-				B16C2C0F214E2F5B008403FB /* Assets.xcassets */,
-				B16C2C11214E2F5B008403FB /* LaunchScreen.storyboard */,
-				B16C2C14214E2F5B008403FB /* Info.plist */,
-				B16C2C15214E2F5B008403FB /* main.m */,
+				B1F5725C2154800D00773180 /* AppDelegate.h */,
+				B1F5725D2154800D00773180 /* AppDelegate.m */,
+				B1F5725F2154800D00773180 /* ViewController.h */,
+				B1F572602154800D00773180 /* ViewController.m */,
+				B1F572622154800D00773180 /* Main.storyboard */,
+				B1F572652154800E00773180 /* Assets.xcassets */,
+				B1F572672154800E00773180 /* LaunchScreen.storyboard */,
+				B1F5726A2154800E00773180 /* Info.plist */,
+				B1F5726B2154800E00773180 /* main.m */,
 			);
 			path = TCZoomingViewDemo;
-			sourceTree = "<group>";
-		};
-		B16C2C1E214E2F5B008403FB /* TCZoomingViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B16C2C1F214E2F5B008403FB /* TCZoomingViewDemoTests.m */,
-				B16C2C21214E2F5B008403FB /* Info.plist */,
-			);
-			path = TCZoomingViewDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B16C2C02214E2F59008403FB /* TCZoomingViewDemo */ = {
+		B1F572582154800D00773180 /* TCZoomingViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B16C2C24214E2F5B008403FB /* Build configuration list for PBXNativeTarget "TCZoomingViewDemo" */;
+			buildConfigurationList = B1F5726F2154800E00773180 /* Build configuration list for PBXNativeTarget "TCZoomingViewDemo" */;
 			buildPhases = (
-				B16C2BFF214E2F59008403FB /* Sources */,
-				B16C2C00214E2F59008403FB /* Frameworks */,
-				B16C2C01214E2F59008403FB /* Resources */,
+				887B648C9BB450A0DE6D362F /* [CP] Check Pods Manifest.lock */,
+				B1F572552154800D00773180 /* Sources */,
+				B1F572562154800D00773180 /* Frameworks */,
+				B1F572572154800D00773180 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,46 +113,24 @@
 			);
 			name = TCZoomingViewDemo;
 			productName = TCZoomingViewDemo;
-			productReference = B16C2C03214E2F59008403FB /* TCZoomingViewDemo.app */;
+			productReference = B1F572592154800D00773180 /* TCZoomingViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B16C2C1A214E2F5B008403FB /* TCZoomingViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B16C2C27214E2F5B008403FB /* Build configuration list for PBXNativeTarget "TCZoomingViewDemoTests" */;
-			buildPhases = (
-				B16C2C17214E2F5B008403FB /* Sources */,
-				B16C2C18214E2F5B008403FB /* Frameworks */,
-				B16C2C19214E2F5B008403FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B16C2C1D214E2F5B008403FB /* PBXTargetDependency */,
-			);
-			name = TCZoomingViewDemoTests;
-			productName = TCZoomingViewDemoTests;
-			productReference = B16C2C1B214E2F5B008403FB /* TCZoomingViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B16C2BFB214E2F59008403FB /* Project object */ = {
+		B1F572512154800D00773180 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Tianchi Wang";
 				TargetAttributes = {
-					B16C2C02214E2F59008403FB = {
+					B1F572582154800D00773180 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					B16C2C1A214E2F5B008403FB = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = B16C2C02214E2F59008403FB;
 					};
 				};
 			};
-			buildConfigurationList = B16C2BFE214E2F59008403FB /* Build configuration list for PBXProject "TCZoomingViewDemo" */;
+			buildConfigurationList = B1F572542154800D00773180 /* Build configuration list for PBXProject "TCZoomingViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,79 +138,76 @@
 				en,
 				Base,
 			);
-			mainGroup = B16C2BFA214E2F59008403FB;
-			productRefGroup = B16C2C04214E2F59008403FB /* Products */;
+			mainGroup = B1F572502154800D00773180;
+			productRefGroup = B1F5725A2154800D00773180 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B16C2C02214E2F59008403FB /* TCZoomingViewDemo */,
-				B16C2C1A214E2F5B008403FB /* TCZoomingViewDemoTests */,
+				B1F572582154800D00773180 /* TCZoomingViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B16C2C01214E2F59008403FB /* Resources */ = {
+		B1F572572154800D00773180 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C2C13214E2F5B008403FB /* LaunchScreen.storyboard in Resources */,
-				B16C2C10214E2F5B008403FB /* Assets.xcassets in Resources */,
-				B16C2C0E214E2F59008403FB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B16C2C19214E2F5B008403FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B1F572692154800E00773180 /* LaunchScreen.storyboard in Resources */,
+				B1F572662154800E00773180 /* Assets.xcassets in Resources */,
+				B1F572642154800D00773180 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		B16C2BFF214E2F59008403FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		887B648C9BB450A0DE6D362F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C2C0B214E2F59008403FB /* ViewController.m in Sources */,
-				B16C2C16214E2F5B008403FB /* main.m in Sources */,
-				B16C2C08214E2F59008403FB /* AppDelegate.m in Sources */,
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCZoomingViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		B16C2C17214E2F5B008403FB /* Sources */ = {
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F572552154800D00773180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C2C20214E2F5B008403FB /* TCZoomingViewDemoTests.m in Sources */,
+				B1F572612154800D00773180 /* ViewController.m in Sources */,
+				B1F5726C2154800E00773180 /* main.m in Sources */,
+				B1F5725E2154800D00773180 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B16C2C1D214E2F5B008403FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B16C2C02214E2F59008403FB /* TCZoomingViewDemo */;
-			targetProxy = B16C2C1C214E2F5B008403FB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B16C2C0C214E2F59008403FB /* Main.storyboard */ = {
+		B1F572622154800D00773180 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B16C2C0D214E2F59008403FB /* Base */,
+				B1F572632154800D00773180 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B16C2C11214E2F5B008403FB /* LaunchScreen.storyboard */ = {
+		B1F572672154800E00773180 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B16C2C12214E2F5B008403FB /* Base */,
+				B1F572682154800E00773180 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +215,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B16C2C22214E2F5B008403FB /* Debug */ = {
+		B1F5726D2154800E00773180 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		B16C2C23214E2F5B008403FB /* Release */ = {
+		B1F5726E2154800E00773180 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,109 +327,58 @@
 			};
 			name = Release;
 		};
-		B16C2C25214E2F5B008403FB /* Debug */ = {
+		B1F572702154800E00773180 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95437C8CFE5FC0017079090 /* Pods-TCZoomingViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U54G7LGSB;
 				INFOPLIST_FILE = TCZoomingViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B16C2C26214E2F5B008403FB /* Release */ = {
+		B1F572712154800E00773180 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE3CC96E05538C9CF431DFF /* Pods-TCZoomingViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U54G7LGSB;
 				INFOPLIST_FILE = TCZoomingViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B16C2C28214E2F5B008403FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U54G7LGSB;
-				INFOPLIST_FILE = TCZoomingViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingViewDemo.app/TCZoomingViewDemo";
-			};
-			name = Debug;
-		};
-		B16C2C29214E2F5B008403FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U54G7LGSB;
-				INFOPLIST_FILE = TCZoomingViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = WTC.TCZoomingViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCZoomingViewDemo.app/TCZoomingViewDemo";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B16C2BFE214E2F59008403FB /* Build configuration list for PBXProject "TCZoomingViewDemo" */ = {
+		B1F572542154800D00773180 /* Build configuration list for PBXProject "TCZoomingViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B16C2C22214E2F5B008403FB /* Debug */,
-				B16C2C23214E2F5B008403FB /* Release */,
+				B1F5726D2154800E00773180 /* Debug */,
+				B1F5726E2154800E00773180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B16C2C24214E2F5B008403FB /* Build configuration list for PBXNativeTarget "TCZoomingViewDemo" */ = {
+		B1F5726F2154800E00773180 /* Build configuration list for PBXNativeTarget "TCZoomingViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B16C2C25214E2F5B008403FB /* Debug */,
-				B16C2C26214E2F5B008403FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B16C2C27214E2F5B008403FB /* Build configuration list for PBXNativeTarget "TCZoomingViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B16C2C28214E2F5B008403FB /* Debug */,
-				B16C2C29214E2F5B008403FB /* Release */,
+				B1F572702154800E00773180 /* Debug */,
+				B1F572712154800E00773180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B16C2BFB214E2F59008403FB /* Project object */;
+	rootObject = B1F572512154800D00773180 /* Project object */;
 }

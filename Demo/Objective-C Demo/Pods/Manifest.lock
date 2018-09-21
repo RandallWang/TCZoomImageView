@@ -1,0 +1,16 @@
+PODS:
+  - TCZoomImageView (0.0.2)
+
+DEPENDENCIES:
+  - TCZoomImageView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TCZoomImageView
+
+SPEC CHECKSUMS:
+  TCZoomImageView: 5a9d80f27c94429d3620353f03be9981ac94ead4
+
+PODFILE CHECKSUM: 41ed74f2f30fe1bbd98e8630535debac0c99a564
+
+COCOAPODS: 1.5.0

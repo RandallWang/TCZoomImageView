@@ -7,12 +7,7 @@ target 'TCZoomingViewDemo' do
 
   # Pods for TCZoomingViewDemo
 
-	pod 'TCZoomingView' 
+	pod 'TCZoomImageView' 
 
-  target 'TCZoomingViewDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-
-  end
 
 end
