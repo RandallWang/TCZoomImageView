@@ -22,7 +22,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self commonInitWithFrame:frame];
+        [self commonInit];
     }
     return self;
 }
@@ -41,19 +41,40 @@
     self.imageView.image = image;
 }
 
-- (void)commonInitWithFrame:(CGRect)frame {
-    CGRect baseFrame = CGRectMake(0, 0, frame.size.width, frame.size.height);
-    self.baseView = [[UIScrollView alloc] initWithFrame:baseFrame];
+- (void)commonInit {
+    self.baseView = [[UIScrollView alloc] init];
     self.baseView.delegate = self;
     self.baseView.bounces = NO;
     self.baseView.bouncesZoom = NO;
     self.baseView.showsVerticalScrollIndicator = NO;
     self.baseView.showsHorizontalScrollIndicator = NO;
     self.baseView.maximumZoomScale = 6;
+    self.baseView.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:self.baseView];
     
-    self.imageView = [[UIImageView alloc] initWithFrame:baseFrame];
+    NSLayoutConstraint *baseViewLeftLC = [self.baseView.leadingAnchor constraintEqualToAnchor:self.leadingAnchor];
+    NSLayoutConstraint *baseViewRightLC = [self.baseView.trailingAnchor constraintEqualToAnchor:self.trailingAnchor];
+    NSLayoutConstraint *baseViewBottomLC = [self.baseView.bottomAnchor constraintEqualToAnchor:self.bottomAnchor];
+    NSLayoutConstraint *baseViewTopLC = [self.baseView.topAnchor constraintEqualToAnchor:self.topAnchor];
+    
+    [NSLayoutConstraint activateConstraints:@[baseViewLeftLC, baseViewRightLC, baseViewBottomLC, baseViewTopLC]];
+    
+    self.imageView = [[UIImageView alloc] init];
+    self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.baseView addSubview:self.imageView];
+    
+    NSLayoutConstraint *imageViewLeftLC = [self.imageView.leadingAnchor constraintEqualToAnchor:self.baseView.leadingAnchor];
+    NSLayoutConstraint *imageViewRightLC = [self.imageView.trailingAnchor constraintEqualToAnchor:self.baseView.trailingAnchor];
+    NSLayoutConstraint *imageViewBottomLC = [self.imageView.bottomAnchor constraintEqualToAnchor:self.baseView.bottomAnchor];
+    NSLayoutConstraint *imageViewTopLC = [self.imageView.topAnchor constraintEqualToAnchor:self.baseView.topAnchor];
+    NSLayoutConstraint *imageViewHeightLC = [self.imageView.heightAnchor constraintEqualToAnchor:self.baseView.heightAnchor];
+    NSLayoutConstraint *imageViewWidthLC = [self.imageView.widthAnchor constraintEqualToAnchor:self.baseView.widthAnchor];
+    
+    [NSLayoutConstraint activateConstraints:@[imageViewLeftLC, imageViewRightLC, imageViewBottomLC, imageViewTopLC, imageViewHeightLC, imageViewWidthLC]];
+    
+    [self.baseView layoutIfNeeded];
+    [self.imageView layoutIfNeeded];
 }
 
 @end
